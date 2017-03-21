@@ -9,6 +9,6 @@ RUN mkdir -p /usr/share/maven \
 
 ENV MAVEN_HOME /usr/share/maven
 
-VOLUME /root/.m2
+# VOLUME /root/.m2
 
 CMD ["mvn"]
